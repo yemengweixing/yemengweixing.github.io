@@ -1829,7 +1829,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3632ff;
+  background: #83ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2623,6 +2623,7 @@ pre .javascript .function {
   overflow: hidden;
   padding: 0;
   width: 240px;
+  background: rgba(0,0,0,0.5);
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2681,10 +2682,10 @@ pre .javascript .function {
   box-sizing: border-box;
   padding: 40px;
   width: 800px;
+  background: rgba(0,0,0,0.5);
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
-  background: #d3d3d3;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .content-wrap {
@@ -3009,7 +3010,7 @@ pre .javascript .function {
 }
 * {
   cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"), auto !important;
-  color: #3d9413;
+  color: #75d986;
 }
 :active {
   cursor: url("http://om8u46rmb.bkt.clouddn.com/sword1.ico"), auto !important;
@@ -3020,4 +3021,7 @@ pre .javascript .function {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.sidebar-inner {
+  background: rgba(0,0,0,0.7);
 }
