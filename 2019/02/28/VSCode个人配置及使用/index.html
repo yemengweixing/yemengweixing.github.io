@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="编程,编辑器," />
 
 
 
@@ -126,13 +126,14 @@
 
 
 <meta name="description" content="常见操作 常用快捷键  Ctrl +　N           新建文件 Shift+Alt+A         区域注释（弹出注释符号） Ctrl + 鼠标左键（单击字符串） 跳转到 当前字符串对应的 方法或变量 定义的地方    窗口  打开一个新窗口： Ctrl+Shift+N 关闭窗口： Ctrl+Shift+W 新建文件 Ctrl+N 历史打开文件之间切换 Ctrl+Tab，Alt+Lef">
+<meta name="keywords" content="编程,编辑器">
 <meta property="og:type" content="article">
 <meta property="og:title" content="VSCode个人配置及使用">
 <meta property="og:url" content="yemengzi.top/2019/02/28/VSCode个人配置及使用/index.html">
 <meta property="og:site_name" content="夜夢未醒">
 <meta property="og:description" content="常见操作 常用快捷键  Ctrl +　N           新建文件 Shift+Alt+A         区域注释（弹出注释符号） Ctrl + 鼠标左键（单击字符串） 跳转到 当前字符串对应的 方法或变量 定义的地方    窗口  打开一个新窗口： Ctrl+Shift+N 关闭窗口： Ctrl+Shift+W 新建文件 Ctrl+N 历史打开文件之间切换 Ctrl+Tab，Alt+Lef">
 <meta property="og:locale" content="zh-hk">
-<meta property="og:updated_time" content="2019-03-03T02:59:07.422Z">
+<meta property="og:updated_time" content="2019-03-04T04:39:29.481Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VSCode个人配置及使用">
 <meta name="twitter:description" content="常见操作 常用快捷键  Ctrl +　N           新建文件 Shift+Alt+A         区域注释（弹出注释符号） Ctrl + 鼠标左键（单击字符串） 跳转到 当前字符串对应的 方法或变量 定义的地方    窗口  打开一个新窗口： Ctrl+Shift+N 关闭窗口： Ctrl+Shift+W 新建文件 Ctrl+N 历史打开文件之间切换 Ctrl+Tab，Alt+Lef">
@@ -229,7 +230,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home    //主页"></i> <br />
             
             首頁
           </a>
@@ -239,7 +240,7 @@
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user  //关于"></i> <br />
             
             關於
           </a>
@@ -249,9 +250,19 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags      //标签"></i> <br />
             
             標籤
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th //分类"></i> <br />
+            
+            分類
           </a>
         </li>
       
@@ -259,7 +270,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive  //归档"></i> <br />
             
             歸檔
           </a>
@@ -382,6 +393,39 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分類於</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/编程/" itemprop="url" rel="index">
+                    <span itemprop="name">编程</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/编程/编辑器/" itemprop="url" rel="index">
+                    <span itemprop="name">编辑器</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -403,6 +447,37 @@
 
           
 
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字數統計&#58;</span>
+                
+                <span title="字數統計">
+                   字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">閱讀時長 &asymp;</span>
+                
+                <span title="閱讀時長">
+                   分钟
+                </span>
+              
+            </div>
           
 
           
@@ -579,6 +654,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/编程/" rel="tag"><i class="fa fa-tag"></i> 编程</a>
+          
+            <a href="/tags/编辑器/" rel="tag"><i class="fa fa-tag"></i> 编辑器</a>
+          
+        </div>
+      
 
       
       
@@ -714,13 +797,22 @@ var jiathis_config={
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分類</span>
+                </a>
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">標籤</span>
                 
               </div>
@@ -742,7 +834,7 @@ var jiathis_config={
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="yemengzi@outlook.com" target="_blank" title="E-Mail">
+                    <a href="mailto:yemengzi@outlook.com" target="_blank" title="E-Mail">
                       
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
@@ -845,6 +937,15 @@ var jiathis_config={
   </span>
   <span class="author" itemprop="copyrightHolder">夜夢子</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count"></span>
   
 </div>
 
