@@ -178,14 +178,33 @@
 
 
 
+ 
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-hk">
+
+
 
   
   
     
   
+  
+<div id="tp-weather-widget"></div>
+ <script>
+  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+  window.SeniverseWeatherWidget('show', {
+    flavor: "bubble",
+    location: "WTW3SJ5ZBJUY",
+    geolocation: true,
+    language: "auto",
+    unit: "c",
+    theme: "auto",
+    token: "a9b7a8dc-716c-4ba8-bf5b-1ee857d17ddc",
+    hover: "always",
+    container: "tp-weather-widget"
+  })
+</script>
 
   <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
@@ -328,6 +347,9 @@
 
  </div>
     </header>
+
+
+
 
     <main id="main" class="main">
       <div class="main-inner">
